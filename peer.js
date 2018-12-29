@@ -3,13 +3,17 @@ import {getQuerystringParams} from './helpers';
 import {StorageKeysP2P} from './enums';
 
 const {brokerURL} = getQuerystringParams();
-const BROKER_URL  = brokerURL || 'https://p2p-broker.herokuapp.com';
+let BROKER_URL    = brokerURL;
 const ANYONE      = '*';
 
 const connections = {
     broker: null,
     peer:   null
 };
+
+function setBrokerURL(url) {
+    BROKER_URL = url;
+}
 
 // Event: peer disconnects from you
 let onDisconnectFromPeer = new Function();
@@ -217,6 +221,7 @@ export default {
     setOnDisconnectFromBroker,
 
     // 1. Set user id and whitelist of trusted users you want to be able to connect to you
+    setBrokerURL,
     setPeerId,
     setPeerWhitelist,
 
