@@ -5,7 +5,7 @@
   "main": "peer.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsyang/P2PSystem.git"
+    "url": "git+https://github.com/jsyang/p2p.system.git"
   },
   "keywords": [
     "P2P",
@@ -16,9 +16,9 @@
   "author": "jsyang.ca@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jsyang/P2PSystem/issues"
+    "url": "https://github.com/jsyang/p2p.system/issues"
   },
-  "homepage": "https://github.com/jsyang/P2PSystem#readme",
+  "homepage": "https://github.com/jsyang/p2p.system#readme",
   "dependencies": {
     "express": "^4.16.4",
     "peer": "^0.2.10",
