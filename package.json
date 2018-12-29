@@ -1,5 +1,5 @@
 {
-  "name": "P2PSystem",
+  "name": "p2p.system",
   "version": "1.0.0",
   "description": "A P2P system with emphasis on games",
   "main": "peer.js",
