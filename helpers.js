@@ -1,4 +1,4 @@
-let params: any;
+let params;
 
 export function getQuerystringParams() {
     if (!params) {
