@@ -1,0 +1,27 @@
+{
+  "name": "P2PSystem",
+  "version": "1.0.0",
+  "description": "A P2P system with emphasis on games",
+  "main": "peer.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsyang/P2PSystem.git"
+  },
+  "keywords": [
+    "P2P",
+    "broker",
+    "client",
+    "networking"
+  ],
+  "author": "jsyang.ca@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsyang/P2PSystem/issues"
+  },
+  "homepage": "https://github.com/jsyang/P2PSystem#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "peer": "^0.2.10",
+    "peerjs": "^0.3.18"
+  }
+}
