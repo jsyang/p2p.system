@@ -40,6 +40,8 @@ server.post('/peers', (req, res) => {
                     activeConnections[activeId].includes(id);
             })
         );
+    } else {
+        res.status(403).send('Not permitted to see peers unless you have identified yourself!');
     }
 });
 
@@ -67,5 +69,4 @@ server.post('/lobby', (req, res) => {
 });
 
 server.on('disconnect', id => delete activeConnections[id]);
-
 console.log(`P2P broker listening on port ${port}!`);
