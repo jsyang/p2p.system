@@ -17,7 +17,7 @@ The `broker.js` module extends the [PeerJS PeerServer](https://github.com/peers/
 
 - POST `/whitelist` sets your own whitelist of the peers that can see you on this server
 - POST `/peers` retrieves the list of peers that have whitelisted your id
-- POST `/lobby` sends a message to 
+- POST `/lobby` (can) send a message to the lobby chat and returns the current chat messages
 
 Please take a look inside the [source for further details](https://github.com/jsyang/p2p.system/blob/master/broker.js), it is a mere 72 lines.
 
