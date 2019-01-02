@@ -1,6 +1,6 @@
 {
   "name": "p2p.system",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A P2P system with emphasis on games",
   "main": "peer.js",
   "repository": {
